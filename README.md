@@ -46,14 +46,14 @@ It is executor for the runner register the default value is: `shell`
 
 It is description/name for the runner register the default value is: `Runner`
 
-#### `GITLAB_RUNNER_TOKEN`: Requerid
+#### `GITLAB_RUNNER_TOKEN`: Required
 
 It is token for the runner register.
 
-#### `TF_VAR_DO_TOKEN`: Requerid
+#### `TF_VAR_DO_TOKEN`: Required
 
 It is token of DigitalOcean for terraform.
 
-#### `TF_VAR_NAME_DROPLET`: Requerid
+#### `TF_VAR_NAME_DROPLET`: Required
 
 It is name for droplet of DigitalOcean for terraform.
