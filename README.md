@@ -46,6 +46,18 @@ It is executor for the runner register the default value is: `shell`
 
 It is description/name for the runner register the default value is: `Runner`
 
+#### `TF_VAR_IMAGE_DROPLET`:
+
+It is name of image for droplet of DigitalOcean for terraform the default value is: `docker-18-04`
+
+#### `TF_VAR_REGION_DROPLET`:
+
+It is region for droplet of DigitalOcean for terraform the default value is: `sfo2`
+
+#### `TF_VAR_SIZE_DROPLET`:
+
+It is size for droplet of DigitalOcean for terraform the default value is: `s-1vcpu-3gb`
+
 #### `GITLAB_RUNNER_TOKEN`: Required
 
 It is token for the runner register.

@@ -18,8 +18,11 @@ ENV GITLAB_RUNNER_URL=https://gitlab.com/
 ENV GITLAB_RUNNER_TAGS=runner
 ENV GITLAB_RUNNER_EXECUTOR=shell
 ENV GITLAB_RUNNER_DESCRIPTION=Runner
+ENV TF_VAR_IMAGE_DROPLET=docker-18-04
+ENV TF_VAR_REGION_DROPLET=sfo2
+ENV TF_VAR_SIZE_DROPLET=s-1vcpu-3gb
 
-RUN apk add --update --no-cache gettext git bash openssh
+RUN apk add --update --no-cache gettext openssh curl
 
 WORKDIR /tf
 COPY _Droplet.tf ./
