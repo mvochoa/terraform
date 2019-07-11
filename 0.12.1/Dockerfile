@@ -14,7 +14,7 @@ RUN git clone https://github.com/hashicorp/terraform.git ./ && \
 
 FROM alpine:3.8
 
-RUN apk add --update --no-cache gettext openssh curl git coreutils bash
+RUN apk add --update --no-cache gettext openssh curl git coreutils bash jq
 
 WORKDIR /tf
 
