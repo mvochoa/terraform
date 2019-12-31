@@ -1,4 +1,4 @@
-# (Deprecated) Terraform
+# (Moved) Terraform
 Docker image of terraform
 
 ## Supported tags and respective Dockerfile links
